@@ -25,6 +25,16 @@ Start the FastAPI REST API server using the uvicorn server locally on port 8080:
 uvicorn main:app --host 0.0.0.0 --port 8080
 ```
 
+Acces the Swagger UI by pointing your browser to:
+```
+http://localhost:8080/docs
+```
+
+See the OpenAPI schema for the REST API by pointing your browser to:
+```
+http://localhost:8080/openapi.json
+```
+
 Run the pytest test suite:
 ```commandline
 pytest -v
